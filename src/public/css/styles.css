@@ -1,0 +1,41 @@
+body {
+    background: #f5f6f5;
+    font-family: 'Oswald', sans-serif;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.index {
+    width: 100vw;
+    height: 100vh;
+}
+
+.masterhead {
+    color: white;
+    min-height: 30rem;
+    width: 98.75%;
+    height: 100%;
+    padding-top: 8rem;
+    background: url('/img/centinelabg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.masterhead h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (min-width: 992px) {
+    .masterhead h1 {
+        font-size: 5.5rem;
+    }
+}
+@media print
+{
+.noprint {display:none;}
+a {color: black;}
+}
